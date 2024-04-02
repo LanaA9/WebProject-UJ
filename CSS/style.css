@@ -1,0 +1,167 @@
+@import url(//fonts.googleapis.com/css?family=Acme);
+
+/* somaya */
+* {
+    font-family: "Acme";
+}
+/* body{
+    background-color: #f7fafe !important;
+} */
+
+.navbar{
+ background-color: white !important;
+}
+
+main{
+    background-color: #f7fafe !important;
+}
+
+.Pizza{
+    font-size: 1.6rem;
+    /* vertical-align: middle; */
+}
+.nav-item{
+  text-decoration: none;
+  color: black; 
+  font-size: 1.2rem;
+}
+.nav-item:hover , .copyright ,.copyright:hover{
+    color:rgb(122, 20, 20) ;
+}
+
+#banner{
+    background-image: url("../Media/BackGroundPizza.jpg");
+    background-size: cover;
+    height: 500px;
+    background-position: 50% 50%;
+    color: white;
+}
+
+.sec-heder{
+    padding-top: 130px;
+}
+
+.menuBtn{
+    background-color: rgb(122, 20, 20) !important;
+    border: none !important;
+}
+
+.description{
+    font-size: 1.1rem;
+}
+
+.headerTitle{
+    font-size: 3rem;
+}
+
+/* Noura  */
+
+table {
+    width: 100%; 
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+  }
+  
+.cc-nora {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.c-nora {
+    flex: 1;
+    margin: 10px;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.c-nora img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 14.5rem;
+}
+
+.c-content-nora {
+    padding: 7px;
+}
+
+.name {
+    font-weight: bold;
+    color: maroon;
+    text-align: center;
+}
+
+.social-media img {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+/*Lana*/
+
+
+.menu-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/*
+h2 {
+    color: #ff6347;
+    text-align: center;
+}*/
+
+/* Menu item styling */
+.menu-item {
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-item h4 {
+    color:rgb(122, 20, 20) ;
+}
+
+.menu-item p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Color scheme */
+/*
+h3, .menu-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+h3 {
+    color: #ff6347;
+    background-color: #fff;
+    padding: 10px;
+}
+*/
+.menu-item {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
